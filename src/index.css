@@ -1,0 +1,57 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap";
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Roboto, sans-serif;
+  background-color: rgb(146 146 146 / 18.6%);
+}
+
+.card-container {
+  background-color: rgb(255 255 255);
+  width: 400px;
+  height: 500px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 5px 10px rgb(0 0 0 / 50%);
+}
+
+.profile {
+  border-radius: 10px;
+  width: 125px;
+  height: 125px;
+}
+
+h3 {
+  font-size: 150%;
+}
+
+p {
+  font-size: 130%;
+  transform: translateY(-35px);
+}
+
+.follow-me-button {
+  width: 180px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  font-size: 110%;
+  transform: translateY(-30px);
+}
+
+.number-follow {
+  display: flex;
+  align-items: center;
+}
+
+.number-followers {
+  font-size: 150%;
+}
